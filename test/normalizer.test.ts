@@ -374,7 +374,7 @@ describe('Normalizer tests', () => {
 
   });
 
-  //  Full name could come as full_name or fullName or "name":{"first":"Carlos","last":"Doe"}
+  // Active flag could come as status: "inactive", status_code: "DISABLED", accountStatus: "I",
   it('Normalization Case 6: Variants of the isActive flag ["A", "active", "OK"]', () => {
 
     const input = {
@@ -473,7 +473,7 @@ describe('Normalizer tests', () => {
 
   });
 
-  //  Full name could come as full_name or fullName or "name":{"first":"Carlos","last":"Doe"}
+  // Roles could come as roles, role_list
   it('Normalization Case 7: Variants of the roles array and field', () => {
 
     const input = {
@@ -541,7 +541,6 @@ describe('Normalizer tests', () => {
 
   });
 
-  //  Full name could come as full_name or fullName or "name":{"first":"Carlos","last":"Doe"}
   it('Normalization Case 8: Variants of the createdAt field', () => {
 
     const input = {
