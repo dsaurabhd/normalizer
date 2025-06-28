@@ -84,6 +84,7 @@ You can use the JWT provided by SnippetSentry in place of `<jwt_goes_here>`. A s
 npm install
 AUTH_TOKEN=<jwt_goes_here> npm run dev
 ```
+![image](https://github.com/user-attachments/assets/59311f44-644e-4e23-9113-19906f20131d)
 
 To run tests
 
