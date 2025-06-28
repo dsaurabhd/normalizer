@@ -90,6 +90,7 @@ To run tests
 ```bash
 npm test
 ```
+![image](https://github.com/user-attachments/assets/49bfa821-d1fa-4077-b1a7-191927e640fe)
 
 ## Wrapping Up
 
